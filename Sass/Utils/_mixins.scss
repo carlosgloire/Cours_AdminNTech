@@ -1,14 +1,4 @@
-@mixin progress_circle{
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-}
 
-@mixin display_flex{
-    display: flex;
-    flex-direction: row;
-    gap: 6px;
-}
 @mixin input_properties{
     background-color: white;
     border-radius: 5px;
