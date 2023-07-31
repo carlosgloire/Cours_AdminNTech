@@ -34,6 +34,9 @@ body {
   margin-bottom: 18px;
   display: grid;
 }
+.bloc_central form {
+  width: 350px;
+}
 
 *,
 ::before,
@@ -73,11 +76,12 @@ label {
   margin-bottom: 8px;
 }
 
-@media (max-width: 978px) {
-  .left-bloc {
-    display: none;
+@media (max-width: 480px) {
+  .bloc_central {
+    width: 100%;
+    margin: 20px;
   }
-  section {
-    grid-template-columns: auto;
+  .bloc_central form {
+    width: 100%;
   }
 }/*# sourceMappingURL=index.css.map */

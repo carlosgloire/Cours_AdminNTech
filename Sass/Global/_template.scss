@@ -3,6 +3,7 @@
 
 body{
     width: 100%;
+    height: 100vh;
     font-size: 16px;
     font-family: u.$font;
     background-color: var(--whiteColor);
@@ -23,5 +24,7 @@ body{
         margin-bottom: 18px;
         display: grid;
     }
-   
+    form{
+        width: 350px;
+    }
 }
